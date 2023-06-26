@@ -1,13 +1,18 @@
 {
-  "name": "botwhatsapp",
-  "type": "module",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "dev": "node src/server.js"
-  },
+"name": "botwhatsapp",
+"type": "module",
+"version": "1.0.0",
+"main": "index.js",
+"license": "MIT",
+"scripts": {
+  "dev": "node src/server.js",
+  "start": "node src/disp.js"
+},
   "dependencies": {
-    "venom-bot": "^4.0.5"
+    "moment": "^2.29.4",
+    "mysql2": "^3.3.0",
+    "node-schedule": "^2.1.1",
+    "sequelize": "^6.31.1",
+    "venom-bot": "^4.2.7"
   }
 }
