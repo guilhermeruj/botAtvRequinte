@@ -13,6 +13,6 @@
     "mysql2": "^3.3.0",
     "node-schedule": "^2.1.1",
     "sequelize": "^6.31.1",
-    "venom-bot": "^4.2.7"
+    "venom-bot": "^5.0.6"
   }
 }
